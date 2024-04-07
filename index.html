@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/46bdafc536.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+          <h1 class="logo"><i><span>S</span>andesh.</i></h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <!--------Header text----------->
+        <div class="header-text">
+        <p>Web-Developer/ Computer Engineer</p>
+        <h1>Hi, I'm <span>Sandesh</span><br>Patel From Nepal</h1>
+        </div>
+    </div>
+   </div> 
+
+   <!-----------AboutSectio------------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> As Sandesh Patel, a dedicated computer science student, I am passionately navigating the realms of technology and programming. Fueled by a genuine curiosity for innovation, I thrive on solving complex problems through logical thinking and applying my skills in various programming languages. Throughout my academic journey, I have not only honed my proficiency in coding but also embraced opportunities for hands-on experiences, be it in projects, internships, or collaborative coding endeavors. Eager to contribute to the ever-evolving tech landscape, I am committed to continuous learning, exploring diverse specializations within computer science, and building a foundation that extends beyond the classroom to make a meaningful impact in the world of technology."
+                </p>
+
+                <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('achivement')">Achivements</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+               <ul>
+                <li><span>Web-Development</span><br>Designing Web Interfaces</li> 
+                <li><span>Data Structure and Algorithm with c</span><br>Data Modeling and Analysis</li> 
+                <li><span>C,C++ Languages</span></li> 
+                <li><span>Oops concept with c++</span></li> 
+                <li><span>Python Languages</span></li> 
+               </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                     <li><span>Freelance</span><br>Freelancers continuously learn and develop skills to stay competitive and meet client demands in a rapidly changing market.</li> 
+                     <li><span>Data Structure and Algorithm with c</span><br>Data Modeling and Analysis</li> 
+                     <li><span>Internship program for 1 month at Oasis infobyte and code clause.</span></li> 
+                     <li><span>solving hackerrank problem.</span></li> 
+                     <li><span>C,C++ and development related topics to a Group of 3-4 friends on a weekly basis</span><br>Received positive feedback for
+                        clear explanations,patient guidance,and ability to simplify topics.
+                        </li> 
+                    </ul>
+                     </div>
+
+                     <div class="tab-contents" id="education">
+                        <ul>
+                         <li><span>X (Nepal Examination Board)</span><br>Galaxy Public school,Bara(Nepal) passed with 97.5% in 2020</li> 
+                         <li><span>XII (Nepal Examination Board)</span><br>National Infotech College,Birgunj
+                            Prasa passed with 82% in 2022</li> 
+                         <li><span>B.Tech First Year</span><br>Computer Science and Engineering at Srm University Ap Andhra Pradesh,Guntur district, Magalagiri(Neerukonda)
+                             B. Tech first passed with 7.9 CGPA.</li> 
+                        </ul>
+                         </div>
+
+                         <div class="tab-contents" id="achivement">
+                            <ul>
+                             <li><span>Certified in Python From NPTL</span></li>
+        
+                             <li><span>Certified in Web technology from Oasis infobyte ,and Code Clause</span></li> 
+                             <li><span>Certified in Psychology for everyday Living from Srm University AP</span></li> 
+                            </ul>
+                             </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!----------------services------------------------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Website Design</h2>
+                <p>Designing the layout,structure,and visual elements of a website to ensure a user-friendly and aesthetically pleasing experience.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Fontend Development</h2>
+                <p>Writing code(HTML,CSS,JavaScript) to implement the design and funcitionality of the user-Interface that users interact with directly.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Web Application Development</h2>
+                <p>Building Interactive web application that perform specific functions or provide services, such as online forms,calculates,or communication tools.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-store"></i>
+                <h2>E-commerce Development</h2>
+                <p>Creating online stores with features like product Listings,shopping carts,payment,gateways,and order management systems.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+   </div>
+   <!-------------------------portfolio--------------------------->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1> 
+        <div class="work-list">
+            <div class="work">
+              <img src="work-1.png">  
+              <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                  <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">  
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                      <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+              </div>
+              <div class="work">
+                <img src="work-3.png"> 
+                <div class="layer">
+                    <h3>Tic Tac Toe Game App</h3>
+                    <p>Tic Tac Toe is that it is an excellent game for developing strategic thinking and decision-making skills.
+                        Download it from play store.</p>
+                      <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div> 
+              </div>
+              <div class="work">
+                <img src="work-4.png">  
+                <div class="layer">
+                    <h3>CurrencyConverter</h3>
+                    <p>This app is its practical utility for international travelers, businesses, and investors.
+                        Download it from play store.</p>
+                      <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+              </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+   <!----------------------contact----------------------------->
+   <div id="contact">
+    <div class="container">
+    <div class="row">
+        <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>patelsandesh998@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>+91-9398328629</p>
+        <div class="social-icons">
+           <a href="https://www.facebook.com/" target="_main"><i class="fa-brands fa-facebook"></i></a> 
+          
+           <a href="https://www.instagram.com/sandeshpatel6137/" target="_main"><i class="fa-brands fa-square-instagram"></i></a>
+           <a href="https://web.whatsapp.com/" target="_main"><i class="fa-brands fa-square-whatsapp"></i></a>
+           <a href="https://www.linkedin.com/in/sandesh-patel-aab32b284/recent-activity/all/" target="_main"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://github.com/Patelsandesh998?tab=repositories" target="_main"><i class="fa-brands fa-square-github"></i></a>
+        </div>
+        <a href="Resume1.Sandesh Patel.pdf"  download class="btn btn2">Download Resume</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+               <input type="text" name="Name" placeholder="Enter your name:" required>
+               <input type="email" name="Email" placeholder="Enter your Email:" required> 
+               <textarea name="Message"  rows="10" placeholder="Enter your Message:"></textarea>
+               <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div> 
+    </div>
+    <div class="copyright">
+        <p>Copyright @ patel. Made with <i class="fa-solid fa-heart"></i> by Sandesh Patel</p>
+    </div>
+   </div>
+   <!--<script src="web.js"></script>-->
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby_AMfXzFKG4I4N3TRVwlz-db5GH8c0JSKTuZDjZBeW0jPjkfPKj1B2JL38rGTAjM8/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
